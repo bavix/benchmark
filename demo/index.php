@@ -9,5 +9,5 @@ $bm->task('random_int');
 
 $bm->run()
     ->filter(function ($v, $k) {
-        var_dump( [$k, $v] );
+        var_dump([$k => $v]);
     });
